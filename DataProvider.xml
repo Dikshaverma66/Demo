@@ -1,0 +1,14 @@
+<suite name="LoginSuite">
+    <test name="LoginTests">
+        <parameter name="username" value="diksha@gmail.com"/>
+        <parameter name="phoneNumber" value="9919705775"/>
+        <parameter name="password" value="12345678"/>
+
+        <parameter name="username" value="akansha@gmail.com"/>
+        <parameter name="phoneNumber" value="8812345670"/>
+        <parameter name="password" value="12345678"/>
+        <classes>
+            <class name="TestFolder.dataProviderExample"/>
+        </classes>
+    </test>
+</suite>

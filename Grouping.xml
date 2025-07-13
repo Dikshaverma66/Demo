@@ -1,0 +1,18 @@
+<suite name="GroupSuite">
+    <test name="Groups">
+        <groups>
+            <run>
+                <include name="sanity"/>
+                <exclude name="regression"/>
+            </run>
+
+        </groups>
+        <classes>
+            <class name="org.example.GroupExample"/>
+            <class name = "org.example.TestNGParallelTestingDemo"/>
+            <class name = "TestFolder.dataProviderExample"/>
+        </classes>
+
+
+    </test>
+</suite>
