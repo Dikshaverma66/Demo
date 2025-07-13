@@ -21,19 +21,19 @@ public class MiniProjectTestingAcademy {
 
     WebDriver driver;
 
-    @BeforeMethod
-    public void openBrowser() {
-        driver = new EdgeDriver();
-        driver.get("https://katalon-demo-cura.herokuapp.com/");
-
-
-    }
+//    @BeforeMethod
+//    public void openBrowser() {
+//        driver = new EdgeDriver();
+//        driver.get("https://katalon-demo-cura.herokuapp.com/");
+//
+//
+//    }
 
     @Test
     @Description("Make Appointment on the Heroku app")
     public void miniProjectHeroku() {
-//        driver = new ChromeDriver();
-//        driver.get("https://katalon-demo-cura.herokuapp.com/");
+        driver = new ChromeDriver();
+        driver.get("https://katalon-demo-cura.herokuapp.com/");
         driver.manage().window().maximize();
 
         driver.findElement(By.linkText("Make Appointment")).click();
