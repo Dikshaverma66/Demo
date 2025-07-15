@@ -20,7 +20,8 @@ public class DropdownExample {
         Select select = new Select(element);
         select.selectByIndex(1);
         //Thread.sleep(3000);
-        select.selectByIndex(2);
+        select.selectByValue("2");
+
 
     }
 
