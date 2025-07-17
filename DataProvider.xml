@@ -1,7 +1,7 @@
 <suite name="LoginSuite">
     <test name="LoginTests">
         <parameter name="username" value="diksha@gmail.com"/>
-        <parameter name="phoneNumber" value="9919705775"/>
+        <parameter name="phoneNumber" value="0000000000"/>
         <parameter name="password" value="12345678"/>
 
         <parameter name="username" value="akansha@gmail.com"/>
@@ -12,3 +12,4 @@
         </classes>
     </test>
 </suite>
+<!-->
